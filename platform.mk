@@ -39,3 +39,7 @@ PRODUCT_COPY_FILES += \
 endif # WITH_TWRP
 
 include $(PLATFORM_PATH)/platform/*.mk
+
+# Testing for dynamic partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
